@@ -24,7 +24,7 @@ $(call inherit-product, device/xiaomi/armani/device.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/armani/armani-vendor.mk)
 
 # Include ParanoidAndroid BootAnimation
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Generic CAF packages
 include device/qcom/common/common.mk
